@@ -7,29 +7,29 @@ import com.capgemini.service.AuthorServiceImp;
 public class Client {
 	public static void main(String ar[])
 	{
-		AuthorService auths=new AuthorServiceImp();
+		AuthorService authorservice=new AuthorServiceImp();
 		
-		Author auth=new Author();
-		auth.setAuthorId(1);
-		auth.setAuthorFirstName("Rohit");
-		auth.setAuthorLastName("Kumar");
-		auth.setAuthorPhoneNumber("1234567890");
-		auths.addAuthor(auth);
+		Author author=new Author();
+		author.setAuthorId(1);
+		author.setAuthorFirstName("Rohit");
+		author.setAuthorLastName("Kumar");
+		author.setAuthorPhoneNumber("1234567890");
+		authorservice.addAuthor(author);
 		
-		Author auth2=new Author();
-		auth2.setAuthorId(2);
-		auth2.setAuthorFirstName("Rohit");
-		auth2.setAuthorLastName("Sinha");
-		auth2.setAuthorPhoneNumber("1234561230");
-		auths.addAuthor(auth);
+		Author author2=new Author();
+		author2.setAuthorId(2);
+		author2.setAuthorFirstName("Rohit");
+		author2.setAuthorLastName("Sinha");
+		author2.setAuthorPhoneNumber("1234561230");
+		authorservice.addAuthor(author);
 		
-		System.out.println(auths.findAuthorById(1));
-		auth.setAuthorPhoneNumber("678954327878");
-		auths.updateAuthor(auth);
+		System.out.println(authorservice.findAuthorById(1));
+		author.setAuthorPhoneNumber("678954327878");
+		authorservice.updateAuthor(authorservice);
 		
 		
-		System.out.println(auths.findAuthorById(1));
-		auths.removeAuthor(auth2);
+		System.out.println(authorservice.findAuthorById(1));
+		authorservice.removeAuthor(author2);
 		
 	}
 

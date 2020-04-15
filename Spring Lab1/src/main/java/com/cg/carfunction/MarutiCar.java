@@ -4,8 +4,7 @@ import com.cg.hello.hello;
 
 public class MarutiCar implements car {
 	hello h;
-	/*void Maruticar()
-	{};*/
+	
 	
 	MarutiCar(int id, hello h)
 	{

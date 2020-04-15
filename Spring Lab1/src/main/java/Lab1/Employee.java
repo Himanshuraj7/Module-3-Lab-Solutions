@@ -16,19 +16,14 @@ public class Employee {
 	static
 	{
 		Employee emp=new Employee();
-		emp.setEmployeeId(1001);
-		emp.setEmployeeName("Satyam Sinha");
-		emp.setSalary(28000);
-		emp.setBusinessUnit("PES-BU");
-		emp.setAge(20);
-		Employee emp1=new Employee();
-		emp1.setEmployeeId(1001);
-		emp1.setEmployeeName("Pranav Sinha");
-		emp1.setSalary(26000);
-		emp1.setBusinessUnit("PES-BU");
-		emp1.setAge(21);
+		emp.setEmployeeId(1);
+		emp.setEmployeeName("Himanshu");
+		emp.setSalary(7000);
+		emp.setBusinessUnit("FDS");
+		emp.setAge(22);
+		
 		emplist.add(emp);
-		emplist.add(emp1);
+		
 	}
 	public int getEmployeeId() {
 		return employeeId;

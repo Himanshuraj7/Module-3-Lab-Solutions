@@ -7,11 +7,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Author")   //If you want to mention any different table name then use this @Table.
+@Table(name="Author")   
 public class Author implements Serializable {
 	private static final long serialVersionUID = 1L;
+	
 	@Id    
-	private int authorId;   //@Id make primary key 
+	private int authorId;   
 	private String authorFirstName;
 	private String authorLastName;
 	private String authorPhoneNumber;

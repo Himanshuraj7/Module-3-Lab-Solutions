@@ -40,11 +40,11 @@ public class TraineeDao implements TraineeDaoI{
 	@Override
 	public Boolean delete(int id)
 	{
-		Trainee t=em.find(Trainee.class, id);//this method will which id to remove
+		Trainee t=em.find(Trainee.class, id);
 		
 		System.out.println(t.getTraineeId() +" "+t.getTraineeName()+" is removed");
 		
-		em.remove(t);//this is object from the database
+		em.remove(t);
 		
 		return true;
 		

@@ -16,14 +16,14 @@ public class WorldWar {
 	WorldWar()
 	{
 	
-		System.out.println("World War Start");
+		System.out.println("War Start");
 		
 	}
 
 	public void display() {
 		
 		World.display();
-		System.out.println("World War End");
+		System.out.println("War End");
 		
 	}
 

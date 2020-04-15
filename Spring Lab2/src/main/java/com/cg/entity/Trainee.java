@@ -63,7 +63,6 @@ public class Trainee {
 
 	public Trainee() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 }

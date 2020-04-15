@@ -35,7 +35,7 @@ public class AuthorServiceImp implements AuthorService {
 	}
 	@Override
 	public Author findAuthorById(int id) {
-		//no need of transaction, as it's an read operation
+		//read opeartion do not need transaction
 				Author author  = dao.getAuthorById(id);
 				return author;
 	}

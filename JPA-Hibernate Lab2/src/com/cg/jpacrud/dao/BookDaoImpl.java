@@ -17,11 +17,6 @@ public class BookDaoImpl implements BookDao  {
 	}
 
 	
-
-	
-
-	
-
 	//Lab2.2 find all books(query 1)
 	@Override
 	public List<Book> getAllBooks() {

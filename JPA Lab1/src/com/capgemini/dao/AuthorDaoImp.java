@@ -5,8 +5,6 @@ import javax.persistence.EntityManager;
 import com.capgemini.entities.Author;
 
 
-
-
 public class AuthorDaoImp implements AuthorDao {
 	
 	private EntityManager entityManager;
